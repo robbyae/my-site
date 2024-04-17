@@ -1,0 +1,192 @@
+html,
+body {
+	border: none;
+	margin: 0;
+	padding: 0;
+    background-color: rgb(69, 48, 23);
+    /* background-color: rgb(69, 48, 23); */
+
+    font-family: 'Linden Hill', serif;
+}
+
+body
+{
+    background-color: bisque;
+    color: rgb(43, 30, 15);
+    padding: 0 0 0rem 0;
+}
+
+.pageText
+{
+    font-size: 16pt;
+}
+
+a
+{
+    cursor: pointer;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+/* HEADER */
+
+.header
+{
+    background-color: rgb(69, 48, 23);
+    display: flex;
+    height: 4rem;
+    color: bisque;
+}
+
+.navbar
+{
+    display: flex;
+    margin: auto 0rem auto auto;
+}
+
+.site-title
+{
+    font-size: 36pt;
+    margin: auto 0 auto 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: bisque;
+}
+
+.site-title:hover
+{
+    text-decoration: underline;
+}
+
+.connector
+{
+    font-size: 36pt;
+    margin: auto 1rem;
+}
+
+.sub
+{
+    font-size: 18pt;
+    margin: auto 0;
+    height: 50%;
+}
+
+.navitem
+{
+    margin: 0 1rem;
+    cursor: pointer;
+    color: bisque;
+    text-decoration: none;
+}
+
+.navitem:hover
+{
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+
+.footer
+{
+    height: 4rem;
+    background-color: rgb(69, 48, 23);
+    color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerText
+{
+    font-size: 12pt;
+}
+
+.leftText
+{
+    margin: auto 0rem auto 1rem;
+}
+
+.rightText
+{
+    margin: auto 1rem auto 0rem;
+}
+
+/* CONTENT */
+
+.entries
+{
+    margin: 0rem auto 4rem auto;
+}
+
+.entry
+{
+    text-align: center;
+    background-color: bisque;
+    margin: 2rem auto 4rem auto;
+    width: 50vw;
+}
+
+.projImg
+{
+    width: 50vw;
+    cursor: pointer;
+}
+
+.projImg:hover .projHeader
+{
+    text-decoration: underline;
+}
+
+.projHeader
+{
+    font-size: 24pt;
+    text-align: center;
+    margin: 2rem auto;
+    text-decoration: none;
+    color:rgb(43, 30, 15);
+}
+
+.pageWrapper
+{
+    margin: 2rem auto 2rem auto;
+}
+
+.audioEssay-visual
+{
+    width: 30%;
+    margin: 2rem auto;
+}
+
+.subjectText
+{
+    text-align: center;
+    margin: auto 10%;
+}
+
+.musicScore-div
+{
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.musicScore
+{
+    height: 60vh;
+    width: 60vw;
+
+    margin: 0 20vw;
+}
+
+.missal-div
+{
+    margin: 2rem auto;
+    width: 60vw;
+}
+
+.missalWhole
+{
+    width: 60vw;
+}
