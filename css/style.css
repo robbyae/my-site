@@ -16,7 +16,7 @@ body
 {
     background-color: bisque;
     color: rgb(43, 30, 15);
-    padding: 0 0 0rem 0;
+    padding: 0;
 }
 .pageText
 {
@@ -48,12 +48,12 @@ a:hover
 .navbar
 {
     display: flex;
-    margin: auto 0rem auto auto;
+    margin: auto 0 auto auto;
 }
 .site-title
 {
     font-size: 36pt;
-    margin: auto 0 auto 1rem;
+    margin: auto 0 auto 1%;
     cursor: pointer;
     text-decoration: none;
     color: bisque;
@@ -65,17 +65,18 @@ a:hover
 .connector
 {
     font-size: 36pt;
-    margin: auto 1rem;
+    margin: auto 1%;
 }
 .sub
 {
+    transform: translateY(4px);
     font-size: 18pt;
     margin: auto 0;
     height: 50%;
 }
 .navitem
 {
-    margin: 0 1rem;
+    margin: 0 1vw;
     cursor: pointer;
     color: bisque;
     text-decoration: none;
@@ -102,17 +103,17 @@ a:hover
 }
 .leftText
 {
-    margin: auto 0rem auto 1%;
+    margin: auto 0% auto 1%;
 }
 .rightText
 {
-    margin: auto 1% auto 0rem;
+    margin: auto 1% auto 0;
 }
 
 /* CONTENT */
 .entries
 {
-    margin: 0rem auto 4% auto;
+    margin: 0 auto 4% auto;
 }
 .entry
 {
@@ -125,6 +126,8 @@ a:hover
 {
     width: 50vw;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 .projImg:hover .projHeader
 {
@@ -140,12 +143,12 @@ a:hover
 }
 .pageWrapper
 {
-    margin: 2rem auto 2rem auto;
+    margin: 2% auto 2% auto;
 }
 .audioEssay-visual
 {
     width: 30%;
-    margin: 2rem auto;
+    margin: 2% auto;
 }
 .subjectText
 {
@@ -155,7 +158,7 @@ a:hover
 .musicScore-div
 {
     width: 100%;
-    margin: 2rem auto;
+    margin: 2% auto;
 }
 .musicScore
 {
@@ -166,12 +169,17 @@ a:hover
 }
 .missal-div
 {
-    margin: 2rem auto;
+    margin: 2% auto;
     width: 60vw;
 }
 .missalWhole
 {
     width: 60vw;
+}
+.href
+{
+    display: block;
+    margin: 0 auto;
 }
 
 /* INDEX.HTML */
@@ -183,7 +191,7 @@ a:hover
 {
     display: block;
     max-width: 50%;
-    margin: 2rem auto;
+    margin: 2% auto;
 }
 .red-span
 {
