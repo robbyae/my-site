@@ -42,7 +42,7 @@ a:hover
 {
     background-color: rgb(69, 48, 23);
     display: flex;
-    height: 4%;
+    height: 10vh;
     color: bisque;
 }
 .navbar
@@ -98,7 +98,7 @@ a:hover
 }
 .footerText
 {
-    font-size: 12pt;
+    font-size: 11pt;
 }
 .leftText
 {
@@ -196,7 +196,7 @@ a:hover
 #me
 {
     display: flex;
-    min-height: 83vh;
+    min-height: 82vh;
 }
 #me-text
 {
