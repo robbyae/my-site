@@ -7,10 +7,9 @@ body {
 	border: none;
 	margin: 0;
 	padding: 0;
-    background-color: rgb(69, 48, 23);
     /* background-color: rgb(69, 48, 23); */
-
     font-family: 'IM Fell English', serif;
+    
 }
 body
 {
@@ -35,6 +34,10 @@ a
 a:hover
 {
     text-decoration: underline;
+}
+img
+{
+    border-radius: 4px;
 }
 
 /* HEADER */
@@ -89,13 +92,16 @@ a:hover
 /* FOOTER */
 .footer
 {
-    height: 4vh;
     background-color: rgb(69, 48, 23);
     color: bisque;
     display: flex;
-    position: relative;
+    position:fixed;
+    width: 100vw;
     bottom: 0;
+    left: 0;
+    right: 0;
     justify-content: space-between;
+    height: 6vh;
 }
 .footerText
 {
@@ -111,6 +117,10 @@ a:hover
 }
 
 /* CONTENT */
+.title-page
+{
+    height: 120vh;
+}
 .entries
 {
     margin: 0 auto 4% auto;
@@ -144,6 +154,7 @@ a:hover
 .pageWrapper
 {
     margin: 2% auto 2% auto;
+    /* min-height: 74.7vh; */
 }
 .audioEssay-visual
 {
@@ -175,6 +186,7 @@ a:hover
 .missalWhole
 {
     width: 60vw;
+    margin: 0 0 10vh 0;
 }
 .href
 {
@@ -187,7 +199,13 @@ a:hover
 {
     max-width: 50%;
 }
-#chant-img
+/* #chant-img
+{
+    display: block;
+    max-width: 50%;
+    margin: 2% auto;
+} */
+.img-href
 {
     display: block;
     max-width: 50%;
@@ -204,7 +222,7 @@ a:hover
 #me
 {
     display: flex;
-    min-height: 82vh;
+    min-height: 83vh;
 }
 #me-text
 {
@@ -216,6 +234,7 @@ a:hover
 {
     display: block;
     margin: auto 10% auto 0;
+    
 }
 #portrait
 {
