@@ -20,7 +20,7 @@ body
 }
 .pageText
 {
-    font-size: 16pt;
+    font-size: 1.3331em;
 }
 p
 {
@@ -52,7 +52,7 @@ a:hover
 }
 .site-title
 {
-    font-size: 36pt;
+    font-size: 3em;
     margin: auto 0 auto 1%;
     cursor: pointer;
     text-decoration: none;
@@ -64,13 +64,13 @@ a:hover
 }
 .connector
 {
-    font-size: 36pt;
+    font-size: 3em;
     margin: auto 1%;
 }
 .sub
 {
-    transform: translateY(4px);
-    font-size: 18pt;
+    transform: translateY(20%);
+    font-size: 1.5em;
     margin: auto 0;
     height: 50%;
 }
@@ -135,7 +135,7 @@ a:hover
 }
 .projHeader
 {
-    font-size: 24pt;
+    font-size: 2em;
     text-align: center;
     margin: 2% auto;
     text-decoration: none;
@@ -208,7 +208,7 @@ a:hover
 }
 #me-text
 {
-    font-size: 16pt;
+    font-size: 1.4em;
     width: 60vw;
     margin: 2% 10% 0 4%;
 }
