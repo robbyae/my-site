@@ -35,13 +35,22 @@
                 CPU Gregorian Chant is a web application that procedurally generates medieval church plainchant and accompanying notation in the Gregorian style.
             </p>
         </div>
-        <br>
         <div id="documentation">
-            <p class="projHeader">Documentation</p>
-            
+            <div class="subjectText">
+                <a class="href red-span" href="https://youtu.be/AJCkAVmg0-c" target="_blank"><p class="pageText">Link to Demo Video</p></a>
+                <p class="pageText">
+                    This project is a culmination of my passion for music, medieval history, software development, and pixel graphics. The project is web based and coded mostly in HTML, CSS, and JavaScript, but Python is used for the generation of the music. The monks are original pixel art designed by me in Pixelorama.
+                    <br><br>
+                    Several JavaScript libraries were used. Pyscript was used to allow Python to communicate with Javascript. Tone.js was used for the production of sound. My favorite is exsurge.js, which renders Gregorian notation in HTML through the use of gabc, a notation for typesetting Gregorian notation using ASCII characters. Jquery and Bootstrap were also used for minor functions.
+                    <br><br>
+                    The music generation algorithm uses Markov processes to generate Greogian Chant in all eight common Gregorian modes. Eight different sets of data are used for the generation of each mode. To generate the different forms, probabilities of neume generation are changed and randomized, increasing musical complexity and differentiating the syllabic, neumatic, and melismatic song forms. Technically, the algorithm works by writing two separate strings: one for the display of notation (gabc) and one for the production of sound (Tone.js).
+                </p>
+                <a class="href red-span" href="https://docs.google.com/document/d/1W-pYqQSIctOzRSQne01cP6IKhSg1TKoQCj92GK20VFk/edit?usp=sharing" target="_blank"><p class="pageText">Here is a link to my blog documenting the full process.</p></a>
+                
+        </div>
         </div>
     </div>
-    
+
     <div class="footer">
         <div class="leftText">
             <p class="footerText">Copyright 2024, Robert Strong. All Rights Reserved.</p>
