@@ -73,7 +73,7 @@ img
 }
 .sub
 {
-    transform: translateY(0%);
+    transform: translateY(10%);
     font-size: 1.5em;
     margin: auto 0;
     height: 50%;
@@ -103,10 +103,6 @@ img
     right: 0;
     justify-content: space-between;
     height: 7vh;
-}
-.footer::after
-{
-
 }
 .footerText
 {
