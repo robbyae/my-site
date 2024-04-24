@@ -9,7 +9,8 @@ body {
 	padding: 0;
     /* background-color: rgb(69, 48, 23); */
     font-family: 'IM Fell English', serif;
-    
+    overscroll-behavior-y: none;
+    -ms-overflow-style: none;
 }
 body
 {
@@ -72,7 +73,7 @@ img
 }
 .sub
 {
-    transform: translateY(20%);
+    transform: translateY(0%);
     font-size: 1.5em;
     margin: auto 0;
     height: 50%;
@@ -95,13 +96,17 @@ img
     background-color: rgb(69, 48, 23);
     color: bisque;
     display: flex;
-    position:fixed;
+    position:relative;
     width: 100vw;
     bottom: 0;
     left: 0;
     right: 0;
     justify-content: space-between;
-    height: 6vh;
+    height: 10vh;
+}
+.footer::after
+{
+
 }
 .footerText
 {
@@ -226,7 +231,7 @@ img
 }
 #me-text
 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     width: 60vw;
     margin: 2% 10% 0 4%;
 }
