@@ -193,6 +193,7 @@ img
 {
     display: block;
     margin: 0 auto;
+    color: #a50202;
 }
 
 /* INDEX.HTML */
@@ -243,3 +244,60 @@ img
     float: right;
     border-radius: 10px;
 }
+
+/* RESPONSIVE */
+@media only screen and (max-width: 800px)
+{
+    .site-title
+    {
+        font-size: 2em;
+    }
+    .connector
+    {
+        display: none;
+        font-size: 1em;
+    }
+    .sub
+    {
+        display: none;
+    }
+    .nav-item
+    {
+        font-size: 1em;
+        margin: 0 1vw;
+    }
+    #me
+    {
+        flex-direction: column;
+    }
+    #me-text
+    {
+        width: 90vw;
+    }
+    .projHeader
+    {
+        font-size: 1.5em;
+    }
+    #me-img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3vh;
+    }
+    #portrait
+    {
+        float: none;
+        width: 80vw;
+    }
+    .leftText
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .rightText
+    {
+        display: none;
+    }
+  }
