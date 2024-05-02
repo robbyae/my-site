@@ -2,6 +2,10 @@
     font-family: 'IM Fell English';
     src: url(../fonts/IMFellEnglish-Regular.ttf);
 }
+html
+{
+    background-color: rgb(69, 48, 23);
+}
 html,
 body {
 	border: none;
@@ -93,6 +97,7 @@ img
 /* FOOTER */
 .footer
 {
+    /* background-color: rgb(43, 30, 15); */
     background-color: rgb(69, 48, 23);
     color: bisque;
     display: flex;
