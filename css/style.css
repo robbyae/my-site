@@ -256,6 +256,7 @@ img
     .site-title
     {
         font-size: 2em;
+        margin-left: 6vw;
     }
     .connector
     {
@@ -283,10 +284,9 @@ img
     {
         font-size: 1.5em;
     }
-    .projImg
+    /* .projImg
     {
-        width: 80vw;
-    }
+    } */
     #me-img
     {
         display: block;
