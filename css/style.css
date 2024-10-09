@@ -56,7 +56,7 @@ img
 .navbar
 {
     display: flex;
-    margin: auto 0 auto auto;
+    margin: auto .5vw auto auto;
 }
 .site-title
 {
