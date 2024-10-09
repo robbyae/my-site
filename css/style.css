@@ -148,6 +148,7 @@ img
 .projImg:hover .projHeader
 {
     text-decoration: underline;
+    text-decoration-color:#a50202;
 }
 .projHeader
 {
@@ -156,7 +157,12 @@ img
     margin: 2% auto;
     text-decoration: none;
     color:rgb(43, 30, 15);
+    text-decoration-color:#a50202;
+    
 }
+/* .projHeader:hover{
+    text-decoration-color:#a50202;
+} */
 .pageWrapper
 {
     margin: 2% auto 2% auto;
