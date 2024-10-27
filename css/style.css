@@ -290,7 +290,7 @@ img
 {
     .site-title
     {
-        font-size: 2em;
+        font-size: 1.5em;
         margin-left: 6vw;
     }
     .connector
@@ -369,5 +369,9 @@ img
     }
     #date {
         font-size: 1.3em;
+    }
+    
+    .projImg {
+        width: 90vw;
     }
   }
