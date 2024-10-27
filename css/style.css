@@ -255,6 +255,35 @@ img
     float: right;
     border-radius: 10px;
 }
+.guitar-text {
+    transform:translateY(-2vh);
+}
+.guitar-text,p {
+    margin:1vh;
+}
+#guitar-imgs
+{
+    display: flex;
+    margin: auto 5% auto 0;
+}
+.current-guitar-img
+{
+    height:80vh;
+    margin: 0 2vw 0 2vw;
+    float: right;
+    border-radius: 10px;
+}
+#front-guitar
+{
+    transform: rotate(2deg);
+}
+#back-guitar
+{
+    transform: rotate(1deg);
+}
+#date {
+    font-size: 1.3em;
+}
 
 /* RESPONSIVE */
 @media only screen and (max-width: 800px)
@@ -314,5 +343,31 @@ img
     .rightText
     {
         display: none;
+    }
+    .guitar-text {
+        transform:translateY(0vh);
+    }
+    .guitar-text,p {
+        margin:1vh;
+    }
+    #guitar-imgs {
+        margin: auto;
+    }
+    .current-guitar-img
+    {
+        height:120vw;
+        margin: 0 2vw 0 2vw;
+        float: none;
+    }
+    #front-guitar
+    {
+        transform: rotate(2deg);
+    }
+    #back-guitar
+    {
+        transform: rotate(1deg);
+    }
+    #date {
+        font-size: 1.3em;
     }
   }
