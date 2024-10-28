@@ -383,9 +383,24 @@ img
     #date {
         font-size: 1.3em;
     }
-    
+    #documentation {
+        width: 90vw;
+    }
+    .subjectText {
+        width: 90vw;
+        margin: 0;
+    }
+    .img-href {
+        margin: 0 auto;
+    }
+    .pageWrapper {
+        width: 90vw;
+    }
+    .entry {
+        width: 90vw;
+    }
     .projImg {
-        width: 50vw;
+        width: 80vw;
     }
     .navitem
     {
