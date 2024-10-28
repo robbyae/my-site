@@ -385,6 +385,10 @@ img
     }
     
     .projImg {
-        width: 90vw;
+        width: 50vw;
+    }
+    .navitem
+    {
+        text-align: center;
     }
   }
