@@ -160,6 +160,12 @@ img
     text-decoration-color:#a50202;
     
 }
+.projHeaderRed,a {
+    text-decoration-color: #a50202;
+}
+.projHeaderRed:hover {
+    color:#a50202;
+}
 /* .projHeader:hover{
     text-decoration-color:#a50202;
 } */
