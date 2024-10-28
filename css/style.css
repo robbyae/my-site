@@ -39,6 +39,9 @@ a
 a:hover
 {
     text-decoration: underline;
+    text-decoration-color:#a50202;
+    text-decoration-thickness:1px;
+
 }
 img
 {
@@ -57,6 +60,9 @@ img
 {
     display: flex;
     margin: auto .5vw auto auto;
+}
+.navbar:hover {
+    text-decoration-thickness:1px;
 }
 .site-title
 {
@@ -165,6 +171,9 @@ img
 }
 .projHeaderRed:hover {
     color:#a50202;
+}
+.featured-project-a {
+    text-decoration-color: #a50202;
 }
 /* .projHeader:hover{
     text-decoration-color:#a50202;
