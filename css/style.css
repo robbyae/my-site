@@ -61,9 +61,6 @@ img
     display: flex;
     margin: auto .5vw auto auto;
 }
-.navbar:hover {
-    text-decoration-thickness:1px;
-}
 .site-title
 {
     font-size: 3em;
@@ -83,7 +80,7 @@ img
 }
 .sub
 {
-    transform: translateY(10%);
+    transform: translateY(0%);
     font-size: 1.5em;
     margin: auto 0;
     height: 50%;
@@ -98,6 +95,7 @@ img
 .navitem:hover
 {
     text-decoration: underline;
+    text-decoration-thickness:1px;
 }
 
 /* FOOTER */
