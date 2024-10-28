@@ -285,7 +285,7 @@ img
 }
 #back-guitar
 {
-    transform: rotate(1deg);
+    transform: rotate(0deg);
 }
 #date {
     font-size: 1.3em;
