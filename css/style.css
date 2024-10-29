@@ -402,6 +402,12 @@ img
     .projImg {
         width: 80vw;
     }
+    .projHeader {
+        width: 80vw;
+    }
+    .subjectText {
+        margin: 0 auto;
+    }
     .navitem
     {
         text-align: center;
