@@ -178,8 +178,10 @@ img
     margin: 2% auto;
     text-decoration: none;
     color:rgb(43, 30, 15);
-    text-decoration-color:#a50202;
-    
+    text-decoration-color:#a50202; 
+}
+.projHero {
+    font-size: 1.6em;
 }
 .projHeaderRed,a {
     text-decoration-color: #a50202;
@@ -480,5 +482,8 @@ img
     a:hover
     {
         text-decoration: none;
+    }
+    .gregorian-entry {
+        display: none;
     }
   }
