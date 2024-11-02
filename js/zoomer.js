@@ -1,5 +1,6 @@
 $(document).ready(function(){
     const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    alert(isMobile);
     if (!isMobile) {
         $('.zoom-span')
         .zoom();
