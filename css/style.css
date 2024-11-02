@@ -267,7 +267,6 @@ img
 {
     display: block;
     margin: auto 10% auto 0;
-    
 }
 #portrait
 {
@@ -284,6 +283,8 @@ img
 #guitar-imgs
 {
     display: flex;
+    justify-content: center;
+
     margin: 0 2% 0 0;
 }
 .current-guitar-img
@@ -292,13 +293,19 @@ img
     margin: 0 1vw 0 1vw;
     float: right;
 }
-/* #front-guitar {
-    transform: rotate(1.75deg);
+#hover-zoom {
+    position: absolute;
+    align-self: end;
+    bottom: 9vh;
+
+    color:black;
+    opacity: .7;
+    z-index: 0;
+    pointer-events: none;
 }
-#back-guitar
-{
-    transform: rotate(0.25deg);
-} */
+.zoom-span {
+    z-index: 1;
+}
 #date {
     font-size: 1.3em;
 }
@@ -436,5 +443,8 @@ img
     .musicScore {
         margin: 0;
         width: 100%;
+    }
+    #hover-zoom {
+        bottom: 0;
     }
   }
