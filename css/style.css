@@ -40,7 +40,7 @@ a:hover
 {
     text-decoration: underline;
     text-decoration-thickness:1px;
-
+    text-decoration-color: #a50202;
 }
 img
 {
@@ -132,14 +132,25 @@ img
 }
 .entries
 {
-    margin: 0 auto 4% auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2% auto 2% auto;
 }
 .entry
 {
     text-align: center;
     background-color: bisque;
     margin: 2% auto 4% auto;
-    width: 50vw;
+    width: 30vw;
+}
+.projImg
+{
+    height: 35vh;
+    max-width: 30vw;
+    object-fit: cover;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
 .entry-gc
 {
@@ -148,7 +159,7 @@ img
     margin: 2% auto 1% auto;
     width: 50vw;
 }
-.projImg
+.projImgGC
 {
     width: 50vw;
     cursor: pointer;
@@ -309,7 +320,7 @@ img
 }
 
 /* RESPONSIVE */
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 800px)
 {
     .site-title
     {
@@ -413,8 +424,25 @@ img
     {
         width: 90vw;
     }
-    .projImg {
-        width: 80vw;
+    .entries
+    {
+        display: block;
+        margin: 2% auto 2% auto;
+    }
+    .entry
+    {
+        text-align: center;
+        background-color: bisque;
+        margin: 2% auto 4% auto;
+        width: 90vw;
+    }
+    .projImg
+    {
+        height: auto;
+        width: 90vw;
+        max-width: 90vw;
+        margin: 0 auto;
+        object-fit: fill;
     }
     .projHeader {
         width: 80vw;
@@ -448,5 +476,9 @@ img
     }
     #hover-zoom {
         display: none;
+    }
+    a:hover
+    {
+        text-decoration: none;
     }
   }

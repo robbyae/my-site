@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    if($(window).width() >= '1000') {
+    if($(window).width() >= '800') {
         $('.zoom-span')
         .zoom();
     }
