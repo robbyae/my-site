@@ -82,8 +82,8 @@ img
 {
     transform: translateY(0%);
     font-size: 1.5em;
+    display: flex;
     margin: auto 0;
-    height: 50%;
 }
 .navitem
 {
@@ -299,7 +299,6 @@ img
     bottom: 9vh;
     color:black;
     opacity: .7;
-    display: none;
     z-index: 1;
     pointer-events: none;
 }
