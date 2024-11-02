@@ -445,6 +445,6 @@ img
         width: 100%;
     }
     #hover-zoom {
-        bottom: 0;
+        display: none;
     }
   }

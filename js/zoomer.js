@@ -1,4 +1,6 @@
 $(document).ready(function(){
-    $('.zoom-span')
-      .zoom();
+    if($(window).width() >= '800') {
+        $('.zoom-span')
+        .zoom();
+    }
   });
