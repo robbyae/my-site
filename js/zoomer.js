@@ -3,7 +3,7 @@ $(document).ready(function(){
     if (!isMobile) {
         $('.zoom-span')
         .zoom();
-        $('#hover-zoom').css('display','none');
+        $('#hover-zoom').css('display','block');
     }
     // if($(window).width() >= '800') {
     //     $('.zoom-span')

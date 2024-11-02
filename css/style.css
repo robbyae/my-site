@@ -299,6 +299,7 @@ img
     bottom: 9vh;
     color:black;
     opacity: .7;
+    display: none;
     z-index: 1;
     pointer-events: none;
 }
