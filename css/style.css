@@ -270,7 +270,7 @@ img
 }
 #portrait
 {
-    width: 25vw;
+    height:75vh;
     float: right;
     border-radius: 10px;
 }
