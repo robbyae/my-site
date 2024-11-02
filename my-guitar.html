@@ -11,6 +11,9 @@
     <meta name="description" content="Guitarist and Designer">
 
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/jquery-3.7.1.min.js"></script>
+    <script defer src="js/jquery.zoom.min.js"></script>
+    <script defer src="js/zoomer.js"></script>
 </head>
 
 <div class="pageHead">
@@ -60,12 +63,12 @@
             </p>
         </div>
         <div id="guitar-imgs">
-            <!-- <a href="img/full-front.png" target="_blank"> -->
-                <img class="current-guitar-img" id="front-guitar" src="img/full-front.png"/>
-            <!-- </a> -->
-            <!-- <a href="img/full-back.png" target="_blank"> -->
-                <img class="current-guitar-img" id="back-guitar" src="img/full-back.png"/>
-            <!-- </a> -->
+            <span class="zoom-span" id="front-guitar" style="display:inline-block">
+                <img class="current-guitar-img" src="img/full-front-v2.png"/>
+            </span>
+            <span class="zoom-span" id="back-guitar" style="display:inline-block">
+                <img class="current-guitar-img" src="img/full-back-v2.png"/>
+            </span>
         </div>
         <img></img>
     </div>

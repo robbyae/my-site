@@ -284,23 +284,21 @@ img
 #guitar-imgs
 {
     display: flex;
-    margin: auto 5% auto 0;
+    margin: 0 2% 0 0;
 }
 .current-guitar-img
 {
     height:80vh;
-    margin: 0 2vw 0 2vw;
+    margin: 0 1vw 0 1vw;
     float: right;
-    border-radius: 10px;
 }
-#front-guitar
-{
-    transform: rotate(2deg);
+/* #front-guitar {
+    transform: rotate(1.75deg);
 }
 #back-guitar
 {
-    transform: rotate(0.5deg);
-}
+    transform: rotate(0.25deg);
+} */
 #date {
     font-size: 1.3em;
 }
@@ -379,14 +377,14 @@ img
         margin: 0 2vw 0 2vw;
         float: none;
     }
-    #front-guitar
+    /* #front-guitar
     {
         transform: rotate(2deg);
     }
     #back-guitar
     {
         transform: rotate(1deg);
-    }
+    } */
     #date {
         font-size: 1.3em;
     }
