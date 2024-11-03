@@ -2,6 +2,10 @@
     font-family: 'IM Fell English';
     src: url(../fonts/IMFellEnglish-Regular.ttf);
 }
+@font-face {
+    font-family: 'Bitscape';
+    src: url(../fonts/bitscape.otf);
+}
 html
 {
     background-color: rgb(69, 48, 23);
@@ -58,7 +62,7 @@ img
 .navbar
 {
     display: flex;
-    margin: auto .5vw auto auto;
+    margin: auto 1vw auto auto;
 }
 .site-title
 {
