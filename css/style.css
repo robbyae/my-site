@@ -87,6 +87,7 @@ img
 .navitem
 {
     margin: 0 1vw;
+    font-size: 1.2em;
     cursor: pointer;
     color: bisque;
     text-decoration: none;
