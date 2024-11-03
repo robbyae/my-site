@@ -332,6 +332,7 @@ img
     }
     .footer {
         height: 6vh;
+        max-height: 6vh;
     }
     .site-title
     {
