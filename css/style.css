@@ -308,7 +308,7 @@ img
 #hover-zoom {
     position: absolute;
     align-self: end;
-    bottom: 9vh;
+    margin-bottom: 2vh;
     color:black;
     opacity: .7;
     z-index: 1;
