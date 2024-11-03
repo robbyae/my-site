@@ -176,13 +176,14 @@ img
 {
     font-size: 2em;
     text-align: center;
+    width: 90%;
     margin: 2% auto;
     text-decoration: none;
     color:rgb(43, 30, 15);
     text-decoration-color:#a50202; 
 }
 .projHero {
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 .projHeaderRed,a {
     text-decoration-color: #a50202;
