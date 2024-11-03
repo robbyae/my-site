@@ -111,6 +111,7 @@ img
     right: 0;
     justify-content: space-between;
     height: 7vh;
+    max-height: 7vh;
 }
 .footerText
 {
@@ -200,7 +201,7 @@ img
 .pageWrapper
 {
     margin: 2% auto 2% auto;
-    /* min-height: 74.7vh; */
+    min-height: 73vh;
 }
 .audioEssay-visual
 {
