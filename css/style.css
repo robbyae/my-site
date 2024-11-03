@@ -446,6 +446,20 @@ img
         margin: 0 auto;
         object-fit: fill;
     }
+    .entry-gc
+    {
+        text-align: center;
+        background-color: bisque;
+        margin: 2% auto 1% auto;
+        width: 80vw;
+    }
+    .projImgGC
+    {
+        width: 80vw;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+    }
     .projHeader {
         width: 80vw;
     }
