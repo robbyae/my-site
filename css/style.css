@@ -96,6 +96,9 @@ img
     text-decoration: underline;
     text-decoration-thickness:1px;
 }
+.navitemGC {
+    display: none;
+}
 
 /* FOOTER */
 .footer
