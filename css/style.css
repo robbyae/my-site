@@ -451,11 +451,11 @@ img
         text-align: center;
         background-color: bisque;
         margin: 2% auto 1% auto;
-        width: 80vw;
+        width: 90vw;
     }
     .projImgGC
     {
-        width: 80vw;
+        width: 90vw;
         cursor: pointer;
         display: block;
         margin: 0 auto;
