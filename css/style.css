@@ -3,6 +3,10 @@
     src: url(../fonts/IMFellEnglish-Regular.ttf);
 }
 @font-face {
+    font-family: 'EB Garamond';
+    src: url(../fonts/EBGaramond-VariableFont_wght.ttf)
+}
+@font-face {
     font-family: 'Bitscape';
     src: url(../fonts/bitscape.otf);
 }
@@ -235,7 +239,7 @@ img
 }
 .missal-div
 {
-    margin: 2% auto;
+    margin: 1% auto;
     width: 60vw;
 }
 .missalWhole
