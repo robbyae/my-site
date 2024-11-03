@@ -469,6 +469,7 @@ img
     .navitem
     {
         text-align: center;
+        margin: auto 0;
     }
     .missal-div {
         width: 100%;
