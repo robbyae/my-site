@@ -140,7 +140,7 @@ img
 {
     text-align: center;
     background-color: bisque;
-    margin: 2% auto 4% auto;
+    margin: 2% auto 2% auto;
     width: 30vw;
 }
 .projImg
@@ -151,6 +151,7 @@ img
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    /* border: 5px ridge rgb(255, 221, 177); */
 }
 .entry-gc
 {
