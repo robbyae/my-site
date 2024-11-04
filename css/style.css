@@ -165,7 +165,10 @@ img
     display: block;
     margin: 0 auto;
     /* border: 5px ridge rgb(255, 221, 177); */
-    border: solid 2px rgb(69, 48, 23);
+    /* border: solid 2px rgb(69, 48, 23); */
+}
+.white-img {
+    border: solid 2px rgb(43, 30, 15);
 }
 .entry-gc
 {
@@ -249,9 +252,6 @@ img
     width: 60vw;
     margin: 0 0 10vh 0;
 }
-.apres-le-bal-img {
-    border: solid 4px rgb(43, 30, 15);
-}
 .href
 {
     display: block;
@@ -306,7 +306,7 @@ img
     float: right;
     /* border-radius: 10px; */
     border-radius: 10px;
-    border: solid 4px rgb(69, 48, 23);
+    /* border: solid 4px rgb(69, 48, 23); */
 }
 #guitar-text
 {
