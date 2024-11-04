@@ -171,7 +171,7 @@ img
 {
     text-align: center;
     background-color: bisque;
-    margin: 2% auto 1% auto;
+    margin: 1% auto 1% auto;
     width: 50vw;
 }
 .projImgGC
@@ -180,6 +180,7 @@ img
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    /* border: solid 2px rgb(69, 48, 23); */
 }
 .projImg:hover .projHeader
 {
@@ -213,7 +214,7 @@ img
 } */
 .pageWrapper
 {
-    margin: 2% auto 2% auto;
+    margin: 1% auto 2% auto;
     min-height: 73vh;
 }
 .audioEssay-visual
@@ -247,6 +248,9 @@ img
 {
     width: 60vw;
     margin: 0 0 10vh 0;
+}
+.apres-le-bal-img {
+    border: solid 4px rgb(43, 30, 15);
 }
 .href
 {
