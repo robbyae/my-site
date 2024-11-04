@@ -313,8 +313,8 @@ img
 /* .guitar-text {
     transform:translateY(-2vh);
 } */
-.guitar-text,p {
-    margin:0vh;
+p {
+    margin:1vh;
 }
 #guitar-imgs
 {
