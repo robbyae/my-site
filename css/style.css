@@ -289,7 +289,7 @@ img
 {
     font-size: 1.3rem;
     width: 60vw;
-    margin: 2% 10% 0 2.6%;
+    margin: 2% 10% 0 2.4%;
 }
 #me-img
 {
@@ -304,11 +304,17 @@ img
     border-radius: 10px;
     border: solid 4px rgb(69, 48, 23);
 }
-.guitar-text {
-    transform:translateY(-2vh);
+#guitar-text
+{
+    font-size: 1.3rem;
+    width: 60vw;
+    margin: 2% 10% 0 2.6%;
 }
+/* .guitar-text {
+    transform:translateY(-2vh);
+} */
 .guitar-text,p {
-    margin:1vh;
+    margin:0vh;
 }
 #guitar-imgs
 {
@@ -414,7 +420,7 @@ img
         transform:translateY(0vh);
     }
     .guitar-text,p {
-        margin:1vh;
+        margin:0vh;
     }
     #guitar-imgs {
         margin: auto;
