@@ -95,7 +95,7 @@ img
 .navitem
 {
     margin: 0 1vw;
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
     color: bisque;
     text-decoration: none;
@@ -165,6 +165,7 @@ img
     display: block;
     margin: 0 auto;
     /* border: 5px ridge rgb(255, 221, 177); */
+    border: solid 2px rgb(69, 48, 23);
 }
 .entry-gc
 {
@@ -286,7 +287,7 @@ img
 }
 #me-text
 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     width: 60vw;
     margin: 2% 8% 0 4%;
 }
@@ -299,7 +300,8 @@ img
 {
     height:75vh;
     float: right;
-    border-radius: 10px;
+    border-radius: 0;
+    border: solid 6px rgb(69, 48, 23);
 }
 .guitar-text {
     transform:translateY(-2vh);
@@ -334,6 +336,11 @@ img
 }
 #date {
     font-size: 1.3em;
+}
+.return-to-projects {
+    margin-top: 6vh;
+    padding-top:4vh;
+    border-top: solid 1.5px rgb(69, 48, 23);
 }
 
 /* RESPONSIVE */
