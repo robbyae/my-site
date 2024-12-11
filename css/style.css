@@ -70,7 +70,7 @@ img
 }
 .site-title
 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin: auto 0 auto 1%;
     cursor: pointer;
     text-decoration: none;
@@ -82,20 +82,20 @@ img
 }
 .connector
 {
-    font-size: 3em;
+    font-size: 4em;
     margin: auto 1%;
 }
 .sub
 {
     transform: translateY(0%);
-    font-size: 1.5em;
+    font-size: 1.75em;
     display: flex;
     margin: auto 0;
 }
 .navitem
 {
     margin: 0 1vw;
-    font-size: 1.15em;
+    font-size: 1.25em;
     cursor: pointer;
     color: bisque;
     text-decoration: none;
