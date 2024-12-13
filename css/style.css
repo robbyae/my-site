@@ -29,7 +29,7 @@ body
     background-color: bisque;
     color: rgb(43, 30, 15);
     padding: 0;
-    max-width: 60vw;
+    width: 60vw;
     margin: auto;
 }
 .pageText
@@ -162,7 +162,7 @@ img
 .projImg
 {
     height: 30vh;
-    max-width: 25vw;
+    width: 25vw;
     object-fit: cover;
     cursor: pointer;
     display: block;
@@ -365,6 +365,28 @@ p {
 }
 
 /* RESPONSIVE */
+@media only screen and (max-width: 1500px)
+{
+    body {
+        width: 100vw;
+    }
+    .footer {
+        width: 100vw;
+    }
+    .current-guitar-img {
+        margin-right: 4vw;
+    }
+    .entries {
+        grid-template-columns: repeat(3, 1fr);
+        width: 100vw;
+    }
+    .entry {
+        width: 30vw;
+    }
+    .projImg {
+        height: 30vh;
+    }
+}
 @media only screen and (max-width: 800px)
 {
     body{
