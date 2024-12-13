@@ -306,6 +306,7 @@ img
 #portrait
 {
     height:75vh;
+    margin-top: 2vh;
     float: right;
     /* border-radius: 10px; */
     border-radius: 10px;
@@ -376,9 +377,11 @@ p {
         height: 6vh;
         max-height: 6vh;
         width: 100vw;
+        text-align: center;
     }
     .site-title
     {
+        display: none;
         font-size: 2em;
         margin-left: 2vw;
     }
@@ -435,9 +438,11 @@ p {
     }
     .guitar-text {
         transform:translateY(0vh);
+        width: 100vw;
     }
     .guitar-text,p {
         margin:0vh;
+        width: 95vw;
     }
     #guitar-imgs {
         margin: auto;
@@ -523,11 +528,12 @@ p {
     .navbar
     {
         margin: auto 2vw auto auto;
+        width: 100vw
     }
     .navitem
     {
         text-align: center;
-        margin: auto 2vw;
+        margin: auto auto;
     }
     .missal-div {
         width: 100%;
@@ -557,6 +563,6 @@ p {
         text-decoration: none;
     }
     .navitemGC {
-        display: none;
+        display:f none;
     }
   }
