@@ -29,7 +29,7 @@ body
     background-color: bisque;
     color: rgb(43, 30, 15);
     padding: 0;
-    width: 60vw;
+    width: 70vw;
     margin: auto;
 }
 .pageText
@@ -119,7 +119,7 @@ img
     color: bisque;
     display: flex;
     position:relative;
-    width: 60vw;
+    width: 70vw;
     bottom: 0;
     left: 0;
     right: 0;
@@ -150,7 +150,7 @@ img
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 2% auto 2% auto;
-    width: 60vw;
+    width: 65vw;
 }
 .entry
 {
