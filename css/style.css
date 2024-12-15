@@ -25,6 +25,7 @@ body {
     -ms-overflow-style: none;
     background-color:#152005;
     /* background-color:#20300a; */
+
 }
 body
 {
@@ -33,6 +34,9 @@ body
     padding: 0;
     width: 80vw;
     margin: auto;
+    border-color:rgb(43, 30, 15);
+    border-width: 0 5px 0;
+    border-style: solid;
 }
 .pageText
 {
